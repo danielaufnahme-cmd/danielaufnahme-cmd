@@ -1,8 +1,10 @@
 <div align="center">
 
-[![Daniel](./wordmark.svg)](./wordmark.svg)
+<img src="./wordmark.svg" alt="Daniel" width="500">
 
 ### Building software from ideas.
+
+I build things to understand how they work.
 
 I'm interested in **programming languages, software development, Linux, and aviation**.
 
@@ -18,13 +20,15 @@ I'm interested in **programming languages, software development, Linux, and avia
 
 ---
 
-## Header Animation
+## About me
 
-An **animated terminal-emulator GIF** used as a GitHub profile README header.
+I'm Daniel, a developer who likes building things from the ground up.
 
-It opens on an empty or mostly-empty terminal, then progressively animates an ASCII-art rendering of **"DANIEL"** appearing on screen, as if the fictional `wordmark.sh` script were actually executing and drawing the letters live.
+I don't just want to use software. I want to understand how it works, experiment with it, and build my own ideas.
 
-After the animation finishes, it settles on the final static frame.
+Right now, most of that effort is going into **Geonex**, my own programming language.
+
+I'm also learning **Java and Dart**, while using **Python** to build and prototype Geonex.
 
 ---
 
