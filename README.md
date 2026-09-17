@@ -1,34 +1,31 @@
+# Daniel
+
 <div align="center">
 
-<img src="./wordmark.svg" alt="Daniel" width="500">
+### I build things instead of just thinking about them.
 
-### Building software from ideas.
-
-I build things to understand how they work.
-
-I'm interested in **programming languages, software development, Linux, and aviation**.
+**Programming Languages · Software · Linux · Aviation**
 
 <br>
 
-[![Geonex](https://img.shields.io/badge/Geonex-Programming%20Language-18181B?style=for-the-badge)](https://github.com/danielaufnahme-cmd/Geonex)
-[![Python](https://img.shields.io/badge/Python-18181B?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![Java](https://img.shields.io/badge/Java-18181B?style=for-the-badge\&logo=openjdk\&logoColor=white)](https://www.java.com/)
-[![Dart](https://img.shields.io/badge/Dart-18181B?style=for-the-badge\&logo=dart\&logoColor=white)](https://dart.dev/)
-[![Linux](https://img.shields.io/badge/Arch%20Linux-18181B?style=for-the-badge\&logo=archlinux\&logoColor=white)](https://archlinux.org/)
+[![Geonex](https://img.shields.io/badge/Geonex-My%20Programming%20Language-000000?style=for-the-badge)](https://github.com/danielaufnahme-cmd/Geonex)
+[![GitHub](https://img.shields.io/badge/GitHub-danielaufnahme--cmd-000000?style=for-the-badge\&logo=github)](https://github.com/danielaufnahme-cmd)
 
 </div>
 
 ---
 
-## About me
+# About Me
 
-I'm Daniel, a developer who likes building things from the ground up.
+I'm **Daniel**.
 
-I don't just want to use software. I want to understand how it works, experiment with it, and build my own ideas.
+I'm interested in building software, programming languages, Linux, and aviation.
 
-Right now, most of that effort is going into **Geonex**, my own programming language.
+I like taking an idea and actually turning it into something that works.
 
-I'm also learning **Java and Dart**, while using **Python** to build and prototype Geonex.
+Right now, my biggest project is **[Geonex](https://github.com/danielaufnahme-cmd/Geonex)** — a programming language I'm building from scratch.
+
+I'm learning **Java** and **Dart**, while building Geonex in **Python**.
 
 ---
 
@@ -36,292 +33,127 @@ I'm also learning **Java and Dart**, while using **Python** to build and prototy
 
 <div align="center">
 
-## A programming language built from scratch.
+## A programming language built from an idea.
+
+[![Geonex Repository](https://img.shields.io/badge/Repository-Geonex-000000?style=for-the-badge\&logo=github)](https://github.com/danielaufnahme-cmd/Geonex)
 
 </div>
 
-**Geonex** is my main project.
+Geonex is my main long-term project.
 
-The current implementation is being built in Python. I'm using the first implementation to experiment with the language and build it piece by piece.
+The current implementation is written in **Python**. I'm building the language piece by piece and using the project to learn how programming languages actually work.
 
-The long-term goal is to make Geonex **self-hosted**.
+The long-term goal is **self-hosting**.
 
-Eventually, I want Geonex to be able to build its own compiler and development tools.
+Eventually, Geonex should be able to build its own compiler and tools.
 
-### Architecture
+### Current architecture
 
 ```text
-                    GEONEX
-                      │
-                      ▼
-                  Source Code
-                      │
-                      ▼
-                    Lexer
-                      │
-                      ▼
-                    Parser
-                      │
-                      ▼
-                     AST
-                      │
-                      ▼
-             Semantic Analysis
-                      │
-                      ▼
-                  GVM / IR
-                      │
-                      ▼
-                 Optimization
-                      │
-                      ▼
-               Code Generation
-                      │
-                      ▼
-                  Execution
+                         GEONEX
+                            │
+                            ▼
+                      ┌───────────┐
+                      │   SOURCE  │
+                      └─────┬─────┘
+                            │
+                            ▼
+                      ┌───────────┐
+                      │   LEXER   │
+                      └─────┬─────┘
+                            │
+                            ▼
+                      ┌───────────┐
+                      │   PARSER  │
+                      └─────┬─────┘
+                            │
+                            ▼
+                      ┌───────────┐
+                      │    AST    │
+                      └─────┬─────┘
+                            │
+                            ▼
+                   ┌─────────────────┐
+                   │    SEMANTICS    │
+                   └────────┬────────┘
+                            │
+                            ▼
+                      ┌───────────┐
+                      │ GVM / IR  │
+                      └─────┬─────┘
+                            │
+                            ▼
+                     ┌─────────────┐
+                     │ OPTIMIZER   │
+                     └──────┬──────┘
+                            │
+                            ▼
+                    ┌──────────────┐
+                    │ CODEGEN      │
+                    └──────┬───────┘
+                           │
+                           ▼
+                      EXECUTION
 ```
 
-### What I'm aiming for
+### The idea
 
-**Readable**
-Syntax that is easy to understand and work with.
-
-**Structured**
-A language that can scale beyond tiny programs.
-
-**Fast**
-Performance is part of the design.
-
-**Practical**
-Something people could actually build software with.
-
-**Self-hosted**
-Eventually, Geonex should be able to help build itself.
-
-### Project
-
-**[View Geonex →](https://github.com/danielaufnahme-cmd/Geonex)**
-
----
-
-# My Skill Set
-
-## Languages
-
-<table>
-<tr>
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
-
-<br>
+I want Geonex to combine the things I like about different languages.
 
 **Python**
 
-</td>
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
-
-<br>
+Readable and simple.
 
 **Java**
 
-</td>
-<td align="center" width="120">
+Structured and capable of handling larger software.
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="50" height="50"/>
+**Geonex**
 
-<br>
-
-**Dart**
-
-</td>
-</tr>
-</table>
-
-## Learning
-
-```text
-Java
-Dart
-Programming Language Design
-Compiler Architecture
-Virtual Machines
-Lexers
-Parsers
-ASTs
-Code Generation
-Self-Hosting
-```
-
-## Tools & Environment
-
-<table>
-<tr>
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
-
-<br>
-
-**Git**
-
-</td>
-
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50"/>
-
-<br>
-
-**Linux**
-
-</td>
-
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg" width="50" height="50"/>
-
-<br>
-
-**Arch Linux**
-
-</td>
-
-<td align="center" width="120">
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/>
-
-<br>
-
-**Terminal**
-
-</td>
-</tr>
-</table>
+My own take on what a language should feel like.
 
 ---
 
-# What I'm Learning
+# What Geonex Is Aiming For
 
-### Programming language development
+<div align="center">
+
+|      Readable      |        Structured       |         Fast        |          Practical         |        Self-hosted       |
+| :----------------: | :---------------------: | :-----------------: | :------------------------: | :----------------------: |
+| Easy to understand | Built for real projects | Performance matters | Useful outside experiments | Eventually builds itself |
+
+</div>
+
+### Planned direction
 
 ```text
-Language Design
-      ↓
-Lexing
-      ↓
-Parsing
-      ↓
-ASTs
-      ↓
-Semantic Analysis
-      ↓
-Virtual Machines
-      ↓
-Intermediate Representation
-      ↓
+Readable Syntax
+      +
+Automatic Memory Management
+      +
+GVM
+      +
 Optimization
+      +
+Python Library Support
+      +
+Standard Library
+      +
+Developer Tooling
+      +
+Package Ecosystem
+      +
+Cross-Platform Support
       ↓
-Code Generation
-      ↓
-Self-Hosting
-```
-
-I'm learning these by actually building something instead of only reading about them.
-
----
-
-# My Setup
-
-```text
-OS          Arch Linux
-Editor      Neovim
-Languages   Python · Java · Dart
-Versioning  Git
-Platform    GitHub
+   Self-Hosted
 ```
 
 ---
 
-# Interests
+# My Stack
 
-### Programming
-
-Programming languages, compilers, virtual machines, operating systems, and software development.
-
-### Linux
-
-I use Arch Linux and enjoy working closer to the system and understanding what is happening underneath.
-
-### Aviation
-
-I'm also really interested in **aircraft and aviation**, especially the technology and engineering behind modern aircraft.
-
----
-
-# How I Build Things
-
-```text
-Idea
- │
- ▼
-Research
- │
- ▼
-Experiment
- │
- ▼
-Build
- │
- ▼
-Break something
- │
- ▼
-Understand why
- │
- ▼
-Fix it
- │
- ▼
-Improve it
- │
- └──────────────► Repeat
-```
-
-The point isn't just getting something working.
-
-It's understanding **why** it works.
-
----
-
-# Current Focus
+## Languages
 
 <div align="center">
 
-### Building Geonex
-
-**Learning Java · Learning Dart · Developing in Python**
-
-**Long-term goal: a self-hosted programming language**
-
-</div>
-
----
-
-# Projects
-
-### [Geonex](https://github.com/danielaufnahme-cmd/Geonex)
-
-A programming language I'm building from scratch, currently implemented in Python and being developed toward a self-hosted future.
-
----
-
-<div align="center">
-
-## Learn → Build → Break → Understand → Improve
-
-### Still building.
-
-</div>
+<a
