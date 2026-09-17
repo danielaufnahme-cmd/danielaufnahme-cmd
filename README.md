@@ -1,12 +1,14 @@
 <div align="center">
 
+[![Daniel](./wordmark.svg)](./wordmark.svg)
+
 # Daniel
 
 ### Building software from ideas.
 
 I build things to understand how they work.
 
-I'm currently focused on **programming languages, software development, Linux, and aviation**.
+I'm interested in **programming languages, software development, Linux, and aviation**.
 
 <br>
 
@@ -24,9 +26,9 @@ I'm currently focused on **programming languages, software development, Linux, a
 
 I'm Daniel, a developer who likes building things from the ground up.
 
-I don't just want to use software. I want to understand how it works, experiment with it, and eventually build my own versions of the things I'm interested in.
+I don't just want to use software. I want to understand how it works, experiment with it, and build my own ideas.
 
-Right now, most of that effort is going into **Geonex**.
+Right now, most of that effort is going into **Geonex**, my own programming language.
 
 I'm also learning **Java and Dart**, while using **Python** to build and prototype Geonex.
 
@@ -42,15 +44,13 @@ I'm also learning **Java and Dart**, while using **Python** to build and prototy
 
 **Geonex** is my main project.
 
-The current implementation is being built in Python. The goal is to use the first implementation to build the language itself piece by piece, while keeping the architecture flexible enough to evolve over time.
+The current implementation is being built in Python. I'm using the first implementation to experiment with the language and build it piece by piece.
 
-### The long-term goal
-
-**Self-hosting.**
+The long-term goal is to make Geonex **self-hosted**.
 
 Eventually, I want Geonex to be able to build its own compiler and development tools.
 
-### Current direction
+### Architecture
 
 ```text
                     GEONEX
@@ -86,55 +86,19 @@ Eventually, I want Geonex to be able to build its own compiler and development t
 ### What I'm aiming for
 
 **Readable**
-
 Syntax that is easy to understand and work with.
 
 **Structured**
-
-A language that can scale beyond tiny scripts.
+A language that can scale beyond tiny programs.
 
 **Fast**
-
-Performance is part of the design, not something to think about at the very end.
+Performance is part of the design.
 
 **Practical**
-
-The goal is to make something people could actually use to build software.
+Something people could actually build software with.
 
 **Self-hosted**
-
-Eventually, the language should be able to help build itself.
-
----
-
-## Geonex Roadmap
-
-```text
-Python Prototype
-       │
-       ▼
-Working Language
-       │
-       ▼
-Lexer + Parser + AST
-       │
-       ▼
-Execution / GVM
-       │
-       ▼
-Optimization
-       │
-       ▼
-Tooling + Standard Library
-       │
-       ▼
-Package Ecosystem
-       │
-       ▼
-Self-Hosted Geonex
-```
-
-I'm building it one part at a time rather than trying to create everything at once.
+Eventually, Geonex should be able to help build itself.
 
 ### Project
 
@@ -142,15 +106,106 @@ I'm building it one part at a time rather than trying to create everything at on
 
 ---
 
-# What I'm learning
+# My Skill Set
 
-### Languages
+## Languages
 
-| Language | Why                                          |
-| -------- | -------------------------------------------- |
-| Python   | Building Geonex and experimenting with ideas |
-| Java     | Learning the language and its ecosystem      |
-| Dart     | Learning modern application development      |
+<table>
+<tr>
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
+
+<br>
+
+**Python**
+
+</td>
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50" height="50"/>
+
+<br>
+
+**Java**
+
+</td>
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" width="50" height="50"/>
+
+<br>
+
+**Dart**
+
+</td>
+</tr>
+</table>
+
+## Learning
+
+```text
+Java
+Dart
+Programming Language Design
+Compiler Architecture
+Virtual Machines
+Lexers
+Parsers
+ASTs
+Code Generation
+Self-Hosting
+```
+
+## Tools & Environment
+
+<table>
+<tr>
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
+
+<br>
+
+**Git**
+
+</td>
+
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50"/>
+
+<br>
+
+**Linux**
+
+</td>
+
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/archlinux/archlinux-original.svg" width="50" height="50"/>
+
+<br>
+
+**Arch Linux**
+
+</td>
+
+<td align="center" width="120">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/>
+
+<br>
+
+**Terminal**
+
+</td>
+</tr>
+</table>
+
+---
+
+# What I'm Learning
 
 ### Programming language development
 
@@ -176,9 +231,11 @@ Code Generation
 Self-Hosting
 ```
 
+I'm learning these by actually building something instead of only reading about them.
+
 ---
 
-# My setup
+# My Setup
 
 ```text
 OS          Arch Linux
@@ -198,17 +255,15 @@ Programming languages, compilers, virtual machines, operating systems, and softw
 
 ### Linux
 
-I use Arch Linux and enjoy working closer to the system instead of hiding everything behind layers of abstraction.
+I use Arch Linux and enjoy working closer to the system and understanding what is happening underneath.
 
 ### Aviation
 
-I'm also interested in **aircraft and aviation**, especially the technology and engineering behind modern aircraft.
+I'm also really interested in **aircraft and aviation**, especially the technology and engineering behind modern aircraft.
 
 ---
 
-# How I build things
-
-I usually start with an idea and then figure out what I actually need to learn to make it work.
+# How I Build Things
 
 ```text
 Idea
@@ -243,7 +298,7 @@ It's understanding **why** it works.
 
 ---
 
-# Current focus
+# Current Focus
 
 <div align="center">
 
