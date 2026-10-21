@@ -30,7 +30,7 @@ I'm especially interested in **programming languages, software development, Linu
 
 My main project is **[Geonex](https://github.com/danielaufnahme-cmd/Geonex)**, a programming language I'm building from scratch.
 
-I'm currently learning **Java** and **Dart**, while developing Geonex in **Python**.
+I'm currently learning **Java** and **Dart**, while developing Geonex.
 
 ---
 
