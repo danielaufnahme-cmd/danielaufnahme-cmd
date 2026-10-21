@@ -1,5 +1,4 @@
 # Daniel
-
 <div align="center">
 
 ### Building software from ideas.
